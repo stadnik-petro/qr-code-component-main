@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- displays site properly based on user's device -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+      <title>Frontend Mentor | QR code component</title>
+
+      <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+      <style>
+            body {
+                  display: flex;
+                  width: 100vw;
+                  height: 100vh;
+                  justify-content: center;
+                  align-items: center;
+
+                  background: rgba(213, 225, 239, 1);
+            }
+
+            .card {
+                  display: flex;
+                  width: 320px;
+                  height: 497px;
+                  flex-direction: column;
+                  align-items: center;
+                  text-align: center;
+                  padding: 16px;
+                  border-radius: 20px;
+                  background-color: #fff;
+
+            }
+
+            .qrcode {
+                  width: 320px;
+                  height: 320px;
+
+                  border-radius: 10px;
+            }
+
+            .title {
+                  color: var(--Dark-Navy, #1F314F);
+                  text-align: center;
+                  font-feature-settings: 'clig' off, 'liga' off;
+                  /* Heading */
+                  font-family: Outfit;
+                  font-size: 22px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: normal;
+            }
+
+            .subtitle {
+                  color: var(--Grey, #7D889E);
+                  text-align: center;
+                  font-feature-settings: 'clig' off, 'liga' off;
+                  /* Body */
+                  font-family: Outfit;
+                  font-size: 15px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: normal;
+                  letter-spacing: 0.188px;
+            }
+
+            .bottom {
+                  padding: 0 30px;
+            }
+      </style>
+</head>
+
+<body>
+      <div class="card">
+            <img src="/images/image-qr-code.png" alt="qr" class="qrcode">
+            <div class="bottom">
+                  <h3 class="title">Improve your front-end skills by building projects</h3>
+
+                  <p classs="subtitle">Scan the QR code to visit Frontend Mentor and take your coding skills to the next
+                        level
+                  </p>
+            </div>
+      </div>
+</body>
+
+</html>
